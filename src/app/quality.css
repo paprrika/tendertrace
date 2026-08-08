@@ -1,0 +1,28 @@
+::selection {
+  color: #fff;
+  background: #e33d2e;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+button,
+a,
+input,
+textarea {
+  transition:
+    color 170ms ease,
+    background-color 170ms ease,
+    border-color 170ms ease,
+    box-shadow 170ms ease,
+    transform 170ms ease;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #e33d2e;
+  outline-offset: 3px;
+}
